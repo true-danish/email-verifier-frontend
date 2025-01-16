@@ -78,7 +78,7 @@ const Working = () => {
 
           <div className="  relative z-[100] max-w-[109.4rem] w-full mx-auto  text-start bg-[#09061A] ">
             {/* 1st card */}
-            <div className="w-full  flex  flex-col sm:flex-row mx-auto pb-[12rem]">
+            <div className="w-full  flex  flex-col lg:flex-row mx-auto pb-[12rem]">
               {/* left */}
               <div className=" max-w-[50rem] pb-[3.5rem] text-[#E0E0E0]">
                 <div className="flex gap-[2rem] justify-start items-center">
@@ -145,7 +145,7 @@ const Working = () => {
 
             {/* 2nd Card */}
 
-            <div className="w-full  flex  flex-col sm:flex-row-reverse mx-auto">
+            <div className="w-full  flex  max-lg:gap-8 flex-col lg:flex-row-reverse mx-auto">
               {/* left */}
               <div className=" max-w-[50rem] pb-[3.5rem] text-[#E0E0E0]">
                 <div className="flex gap-[2rem] justify-start items-center">

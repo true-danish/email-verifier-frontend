@@ -13,7 +13,7 @@ const Pricing = () => {
         </p>
 
         <div className="min-h-[57rem]  flex items-center flex-col lg:flex-row max-lg:gap-10">
-          <div className="max-w-[60rem] p-[4.8rem]  rounded-[1.6rem] bg-gradient-to-r from-[rgba(69,81,116,.64)] to-[rgba(33,50,98,.24)]">
+          <div className="max-w-[60rem] sm:w-[60rem] p-[4.8rem]  rounded-[1.6rem] bg-gradient-to-r from-[rgba(69,81,116,.64)] to-[rgba(33,50,98,.24)]">
             <div className="flex  gap-[2rem] items-center justify-center">
               <span className="text-[#5FAEF8]  text-[2.4rem] font-semibold">
                 Monthly
