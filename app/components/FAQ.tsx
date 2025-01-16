@@ -36,7 +36,7 @@ const FAQ = () => {
                 alt="arrow icon"
                 width={24}
                 height={24}
-                className={`rotate-180 ${i === activeIndx && "rotate-0"} `}
+                className={` ${i === activeIndx ? "rotate-0" : "rotate-180"} `}
               />
             </div>
 

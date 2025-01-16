@@ -79,11 +79,15 @@ const Features = () => {
         </div>
 
         {/* Features */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-[2rem] flex-1">
+        <div
+          className="grid sm:grid-cols-2 lg:grid-cols-3 gap-[2rem] flex-1  before:left-1/2
+        relative before:absolute before:[box-shadow:0px_0px_400px_400px_rgba(35,0,102,.4)] 
+      before:w-[.1rem] before:h-[.1rem]   before:top-[50%]  "
+        >
           {data.map((ele) => (
             <div
-              className="px-[1.8rem] py-[4.8rem] rounded-[1.6rem] border border-[#21305C] 
-           [background-image:radial-gradient(at_top_left,#281E38,rgba(11,8,28,.6))] backdrop-blur-[1.2rem]
+              className="px-[1.8rem] py-[4.8rem] rounded-[1.6rem] border border-[#21305C]/60 
+           [background-image:radial-gradient(at_top_left,#281E38,rgba(11,8,28,.7))] backdrop-blur-[1.2rem]
            [box-shadow:0px_0px_8px_rgba(8,0,62,.17),1px_2px_8px_rgba(0,0,0,.24)]"
             >
               <Image src={ele.url} alt="features icon" width={50} height={50} />

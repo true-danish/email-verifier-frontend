@@ -5,7 +5,10 @@ const Footer = () => {
   return (
     <main className="  pt-[18.7rem] ">
       {/* Try section */}
-      <section className="flex flex-col items-center justify-center text-center">
+      <section
+        className="flex  flex-col items-center justify-center text-center relative before:absolute 
+      before:w-[.1rem] before:h-[.1rem] before:top-[6rem]  before:[box-shadow:0px_0px_400px_80px_rgba(112,199,243,1)]"
+      >
         <h1 className=" max-w-[61rem]  bg-clip-text text-transparent bg-gradient-to-b from-[#EBEBEB] to-[#A3A3A3] text-[7.4rem] font-semibold leading-[7.6rem]">
           TrySee Verifier in action
         </h1>
