@@ -83,8 +83,8 @@ const Features = () => {
           {data.map((ele) => (
             <div
               className="px-[1.8rem] py-[4.8rem] rounded-[1.6rem] border border-[#21305C] 
-           [background-image:radial-gradient(#281E38_0%,rgba(11,8,28,.6)_100%)] backdrop-blur-[1.2rem]
-           [box-shadow:0px_0px_5px_rgba(8,0,62,.17),1px_2px_8px_rgba(0,0,0,.24)]"
+           [background-image:radial-gradient(at_top_left,#281E38,rgba(11,8,28,.6))] backdrop-blur-[1.2rem]
+           [box-shadow:0px_0px_8px_rgba(8,0,62,.17),1px_2px_8px_rgba(0,0,0,.24)]"
             >
               <Image src={ele.url} alt="features icon" width={50} height={50} />
               <h1 className="font-medium text-[2rem] leading-[120%] text-[#F0F0F0] mt-[2.8rem] mb-[1.6rem]">
